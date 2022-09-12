@@ -14,7 +14,7 @@ function App() {
       >
         <h1 style={{ fontSize: 62 }}>Lucky Draw Tools</h1>
         <div className="text-center">
-          <Link to="/random-name-picker">Random Name Picker</Link> |{' '}
+          <Link to="/random-name-picker">Random Name Picker</Link> {' '} |{' '}
           <Link to="/spin-the-wheel">Spin The Wheel</Link>
         </div>
       </div>
