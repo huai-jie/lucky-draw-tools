@@ -1,0 +1,118 @@
+.fw-wrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.fw-btn {
+  position: absolute;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.fw-btn__btn {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  background: var(--btnColor);
+  color: #fff;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  &:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-bottom: 22px #fff solid;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &:before{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 18px var(--btnColor) solid;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%) translateY(6px);
+    z-index: 2;
+  }
+}
+.fw-btn__btn:hover{
+ scale: (1.02);
+}
+
+.fw-winner {
+  position: absolute;
+  cursor: pointer;
+  top: 20%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+.fw-winner__name {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-align: center  ;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.fw-btn__image {
+  display: inline-block;
+}
+
+canvas{ 
+  top:0;bottom:0;right:0;left:0; 
+  margin:auto; 
+ } 

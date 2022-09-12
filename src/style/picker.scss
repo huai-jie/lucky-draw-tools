@@ -1,0 +1,43 @@
+.reel-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  font-size: 62px;
+  font-family: 'Raleway, sans-serif';
+  font-weight: '800';
+  vertical-align: middle;
+}
+
+.solid-button {
+  z-index: 1;
+  display: inline-block;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.625rem;
+  background-color: #ffbf1f;
+  color: #fff;
+  padding: 1rem 0.625rem;
+  font-size: 1.75rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  font-family: inherit;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: none;
+}
+
+#draw-button {
+  width: 18rem;
+  margin: 4.4rem 0 0;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  padding: 0.8rem 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.5rem 0.5rem 0 rgb(0 0 0 / 20%);
+}

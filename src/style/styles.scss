@@ -1,0 +1,33 @@
+// Import all of Bootstrap's CSS
+@import "./sass/app.scss";
+
+.btn {
+  width: fit-content;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:deep(i) {
+  line-height: 1.5;
+  padding-right: 0;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .modal-dialog {
+    min-width: 650px;
+  }
+}
+
+.tabs-wrapper {
+  :slotted(button) {
+    color: #a1a5b7;
+    margin-right: 15px;
+  }
+
+  :slotted(button.active) {
+    color: black;
+    transition: color 0.2s ease;
+  }
+}

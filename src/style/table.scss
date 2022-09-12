@@ -1,0 +1,51 @@
+.sorting {
+  cursor: pointer;
+}
+
+th:first-child,
+td:first-child {
+  padding-left: 1.5rem !important;
+}
+
+th:last-child,
+td:last-child {
+  padding-right: 1.5rem !important;
+}
+
+.table-hover tr:hover td :deep(.btn-active-light-primary) {
+  background: white;
+}
+
+.action-button-wrapper :deep(button.btn) {
+  margin-right: 10px !important;
+}
+
+.action-button-wrapper :deep(button.btn:last-child) {
+  margin-right: 0 !important;
+}
+
+@media (max-width: 480px) {
+  .action-button-wrapper :deep(button.btn) {
+    margin-right: 6px !important;
+    margin-bottom: 10px !important;
+  }
+}
+.svg-icon {
+  align-self: center;
+  border: 1px solid hsla(0,0%,50%,.25);
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 2px;
+  max-height: 26px;
+  max-width: 26px;
+  position: relative;
+  border: 0px; 
+  z-index: 1;
+}
+
+.svg-icon-img {
+  height: 15px;
+  padding: 5px 4px 0;
+  width: 15px;
+}
