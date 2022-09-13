@@ -33,7 +33,7 @@
     "@types/web-animations-js": "^2.2.12",
     "@vitejs/plugin-react": "^2.1.0",
     "react-router-dom": "^6.3.0",
-    "sass": "^1.54.0",
+    "sass": "^1.54.9",
     "typescript": "^4.7.4",
     "vite": "^3.1.0"
   }
